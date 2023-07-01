@@ -1,0 +1,35 @@
+{
+  "name": "8gui",
+  "version": "1.1.2",
+  "description": "Utility tool for modifying any Threejs scenes variables during runtime.",
+  "main": "8gui.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FlamingoFilter/8gui"
+  },
+  "scripts": {
+    "build": "webpack"
+  },
+  "keywords": [
+    "three",
+    "threejs",
+    "dat.gui",
+    "gui",
+    "js",
+    "debug",
+    "a-frame",
+    "aframe",
+    "8thwall"
+  ],
+  "author": "Flamingo Filter - Jonathann Jacobs <jonathann@flamingofilter.co>",
+  "license": "Apache 2.0",
+  "dependencies": {
+    "animejs": "^3.2.1",
+    "dat.gui": "^0.7.9",
+    "three": "^0.145.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  }
+}
